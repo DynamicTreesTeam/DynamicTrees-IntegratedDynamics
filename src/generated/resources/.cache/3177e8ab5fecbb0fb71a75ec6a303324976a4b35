@@ -1,0 +1,8 @@
+// 1.20.1	2025-06-29T16:34:15.4757433	Block States: dtintegrateddynamics
+5126a32e6658cdb6aef03348a646a5c3f12ef8fc assets/dtintegrateddynamics/blockstates/menril_branch.json
+e9c6574d4ac34409959cb12340a30dba09f08845 assets/dtintegrateddynamics/blockstates/menril_leaves.json
+611f6613bc050f15a4f5f14f7a302cd48db33c3c assets/dtintegrateddynamics/blockstates/menril_root.json
+bb72782a4bf269d61b07edb26d660bbe14c4babc assets/dtintegrateddynamics/blockstates/menril_sapling.json
+92e460f506e1220e4de062420b9856224c7437e2 assets/dtintegrateddynamics/models/block/menril_branch.json
+39e7b1716b94c363e3cb4b57d5426418c3cf9daa assets/dtintegrateddynamics/models/block/menril_root.json
+1a69ed34e9fdf72fa1d4eaf00b45bfd97b5ad094 assets/dtintegrateddynamics/models/block/saplings/menril.json

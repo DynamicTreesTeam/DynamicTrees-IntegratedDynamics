@@ -1,0 +1,33 @@
+{
+  "family": "dtintegrateddynamics:menril",
+  "tapering": 0.5,
+  "signal_energy": 10.0,
+  "growth_rate": 0.8,
+  "up_probability": 10,
+  "lowest_branch_height": 5,
+  "leaves_properties": "dtintegrateddynamics:menril",
+  "perfect_biomes": { "name": "integrateddynamics:meneglin" },
+  "primitive_sapling": "integrateddynamics:menril_sapling",
+  "fruits": [
+    "dtintegrateddynamics:menril_berries"
+  ],
+  "features": [
+    "bottom_flare",
+    "mound",
+    {
+      "name": "roots",
+      "properties": {
+        "fruit": "dtintegrateddynamics:menril_berries",
+        "min_trunk_radius": 8,
+        "scale_factor": 12
+      }
+    },
+    {
+      "name": "fruit",
+      "properties": {
+        "fruit": "dtintegrateddynamics:menril_berries",
+        "fruiting_radius": 5
+      }
+    }
+  ]
+}

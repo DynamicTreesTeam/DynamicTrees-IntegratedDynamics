@@ -1,0 +1,6 @@
+{
+  "primitive_leaves": "integrateddynamics:menril_leaves",
+  "texture_overrides": {
+    "leaves": "integrateddynamics:block/menril_leaves_fancy"
+  }
+}

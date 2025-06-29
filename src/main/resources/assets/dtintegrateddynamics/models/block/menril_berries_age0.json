@@ -1,0 +1,27 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "fruit": "dtintegrateddynamics:block/menril_berries",
+        "particle": "#fruit"
+    },
+    "elements": [
+        {   "from": [ 7, 15, 8 ],
+            "to": [ 9, 16, 8 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 6, 15, 10, 16 ], "texture": "#fruit" },
+                "south": { "uv": [ 6, 15, 10, 16 ], "texture": "#fruit" }
+            }
+        },
+        {   "from": [ 8, 15, 7 ],
+            "to": [ 8, 16, 9 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 6, 15, 10, 16 ], "texture": "#fruit" },
+                "east": { "uv": [ 6, 15, 10, 16 ], "texture": "#fruit" }
+            }
+        }
+    ]
+}

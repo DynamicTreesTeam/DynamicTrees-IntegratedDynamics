@@ -1,0 +1,52 @@
+modLoader = "javafml"
+loaderVersion = "[41,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/DynamicTreesTeam/DynamicTrees-IntegratedDynamics/issues"
+
+[[mods]]
+modId = "dtintegrateddynamics"
+version = "${file.jarVersion}"
+displayName = "Dynamic Trees for Integrated Dynamics"
+
+updateJSONURL = "https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/Add-ons/IntegratedDynamics.json?raw=true"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-integrated-dynamics"
+
+authors="Max Hyper" #optional
+description='''
+Compatibility Mod between Dynamic trees and Tinker's Construct
+'''
+
+[[dependencies.dtintegrateddynamics]]
+modId = "forge"
+mandatory = true
+versionRange = "[41,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.dtintegrateddynamics]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20,1.21)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.dtintegrateddynamics]]
+modId = "dynamictrees"
+mandatory = true
+versionRange = "[1.20.1-1.4.5,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.dtintegrateddynamics]]
+modId = "dynamictreesplus"
+mandatory = false
+versionRange = "[1.20.1-1.2.1,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.dtintegrateddynamics]]
+modId = "integrateddynamics"
+mandatory = true
+versionRange = "[1.27.0,)"
+ordering = "AFTER"
+side = "BOTH"
